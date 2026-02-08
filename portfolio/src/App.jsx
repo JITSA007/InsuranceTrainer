@@ -732,8 +732,11 @@ const Portfolio = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 shrink-0">
                 <div className="absolute inset-0 bg-blue-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
                 <div className="relative w-full h-full rounded-full border-4 border-white/10 overflow-hidden shadow-2xl bg-slate-800 flex items-center justify-center">
-                   {/* Replace with actual photo */}
-                   <img src='sunil.png'>
+                    <img 
+                    src="sunil.png" 
+                    alt="Sunil Meena" 
+                    className="w-full h-full object-cover" 
+                    />
                 </div>
                 <div className="absolute bottom-4 right-4 bg-white text-slate-900 p-3 rounded-xl shadow-lg flex items-center gap-3 animate-bounce">
                   <div className="bg-green-100 p-2 rounded-full text-green-600">
